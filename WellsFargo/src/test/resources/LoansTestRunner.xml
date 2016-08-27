@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wells Fargo" parallel="tests">
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="sorenessen"/>
+    <parameter name="key" value=""/>
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="48"/>
+    <parameter name="url" value="http://www.wellsfargo.com"/>
+
+    <test name = "LoanCalculatorTest">
+        <classes>
+            <class name="Loans.LoanCalculator"/>
+        </classes>
+    </test>
+</suite>

@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-        <suite name="NY Times" parallel="tests">
+<suite name="NY Times" parallel="tests">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="userName" value="sorenessen"/>
     <parameter name="key" value=""/>
@@ -13,4 +13,4 @@
             <class name="search.SearchContent"/>
         </classes>
     </test>
-        </suite>
+</suite>

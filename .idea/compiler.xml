@@ -22,18 +22,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Aetna" />
         <module name="Amazon" />
         <module name="CNN" />
         <module name="Generic" />
+        <module name="iFixit" />
         <module name="NYTimes" />
+        <module name="WellsFargo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Amazon" target="1.5" />
-      <module name="CNN" target="1.5" />
-      <module name="Generic" target="1.5" />
-      <module name="NYTimes" target="1.5" />
-      <module name="WebApp-Automation1" target="1.5" />
+    <bytecodeTargetLevel target="1.5">
+      <module name="Aetna" target="1.8" />
+      <module name="Amazon" target="1.8" />
+      <module name="CNN" target="1.8" />
+      <module name="Generic" target="1.8" />
+      <module name="iFixit" target="1.8" />
+      <module name="NYTimes" target="1.8" />
+      <module name="WebApp-Automation1" target="1.8" />
+      <module name="WellsFargo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
